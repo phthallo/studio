@@ -1,14 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- .bg-image {
-  filter: blur(3px);
- }
- .centered-text {
-    position: absolute;
-    top: 50%;  /* position the top  edge of the element at the middle of the parent */
-    left: 50%; /* position the left edge of the element at the middle of the parent */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
 
-    transform: translate(-50%, -50%); /* This is a shorthand of
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
+
+p { 
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+}
+ .bg-image {
+  filter: brightness(60%);
+  background-attachment: fixed;
+ }
+ .absolute-left {
+    position: absolute;
+    top: 40%;  /* position the top  edge of the element at the middle of the parent */
+    left: 20%; /* position the left edge of the element at the middle of the parent */
+
+    transform: translate(-20%, -40%); /* This is a shorthand of
                                          translateX(-50%) and translateY(-50%) */
 }
