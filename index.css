@@ -20,6 +20,11 @@ p {
   filter: brightness(60%);
   background-attachment: fixed;
  }
+
+ .box-image {
+   width: 100%;
+   height: 100%;
+ }
  .absolute-left {
     position: absolute;
     top: 40%;  /* position the top  edge of the element at the middle of the parent */
