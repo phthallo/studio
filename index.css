@@ -21,6 +21,7 @@ p {
 
 quote {
   font-family: 'Playfair Display', serif;
+
 }
  .bg-image {
   filter: brightness(60%);
@@ -43,5 +44,6 @@ quote {
  .middle {
    top: 50%;
    bottom: 50%;
-   transform: translate(0%,-50%);
+   transform: translate(50%,-50%);
  }
+
